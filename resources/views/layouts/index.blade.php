@@ -47,7 +47,7 @@
             <h1 data-aos="fade-up">Tingkatkan Manajemen Sekolah Dengan SchoolTech</h1>
             <p data-aos="fade-up" data-aos-delay="100">Kami menawarkan product digital untuk meningkatkan efisiensi operasional sekolah</p>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
-              <a href="#about" class="btn-get-started">Get Started <i class="bi bi-arrow-right"></i></a>
+              <a href="#about" class="btn-get-started">Mau Coba! <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
@@ -59,43 +59,44 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
+{{--    <section id="about" class="about section">--}}
 
-      <div class="container" data-aos="fade-up">
-        <div class="row gx-0">
+{{--      <div class="container" data-aos="fade-up">--}}
+{{--        <div class="row gx-0">--}}
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <div class="content">
-              <h3>Who We Are</h3>
-              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
-              <p>
-                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
-              </p>
-              <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
-                  <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
+{{--          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">--}}
+{{--            <div class="content">--}}
+{{--              <h3>Who We Are</h3>--}}
+{{--              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>--}}
+{{--              <p>--}}
+{{--                Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.--}}
+{{--              </p>--}}
+{{--              <div class="text-center text-lg-start">--}}
+{{--                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">--}}
+{{--                  <span>Read More</span>--}}
+{{--                  <i class="bi bi-arrow-right"></i>--}}
+{{--                </a>--}}
+{{--              </div>--}}
+{{--            </div>--}}
+{{--          </div>--}}
 
-          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
+{{--          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">--}}
+{{--            <img src="assets/img/about.jpg" class="img-fluid" alt="">--}}
+{{--          </div>--}}
 
-        </div>
-      </div>
+{{--        </div>--}}
+{{--      </div>--}}
 
-    </section><!-- /About Section -->
+{{--    </section>
+<!-- /About Section -->--}}
 
     <!-- Values Section -->
     <section id="values" class="values section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Values</h2>
-        <p>What we value most<br></p>
+        <h2>Nilai</h2>
+        <p>Nilai Kami<br></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -105,24 +106,24 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
               <img src="assets/img/values-1.png" class="img-fluid" alt="">
-              <h3>Ad cupiditate sed est odio</h3>
-              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+              <h3>Beradaptasi</h3>
+              <p>Kami selalu beradaptasi dengan perubahan dunia pendidikan yang dikarenakan peraturan pemerintahan dan selalu mendengar kendala pengguna</p>
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
               <img src="assets/img/values-2.png" class="img-fluid" alt="">
-              <h3>Voluptatem voluptatum alias</h3>
-              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+              <h3>Berkelanjutan</h3>
+              <p>Implementasi kami selalu berinovasi sehingga dapat menghasilkan layanan yang sesuai dan dapat memberikan pengalaman yang baik bagi pengguna</p>
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
               <img src="assets/img/values-3.png" class="img-fluid" alt="">
-              <h3>Fugit cupiditate alias nobis.</h3>
-              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+              <h3>Berkualitas</h3>
+              <p>Kualitas layanan merupakan prioritas utama kami dalam melakukan pengembangan baik secara sistem maupun data, kami memastikan bahwa data sekolah anda aman.</p>
             </div>
           </div><!-- End Card Item -->
 
@@ -143,7 +144,7 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Happy Clients</p>
               </div>
             </div>
@@ -153,7 +154,7 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-journal-richtext color-orange flex-shrink-0" style="color: #ee6c20;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Projects</p>
               </div>
             </div>
@@ -163,7 +164,7 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-headset color-green flex-shrink-0" style="color: #15be56;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Hours Of Support</p>
               </div>
             </div>
@@ -173,7 +174,7 @@
             <div class="stats-item d-flex align-items-center w-100 h-100">
               <i class="bi bi-people color-pink flex-shrink-0" style="color: #bb0852;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
                 <p>Hard Workers</p>
               </div>
             </div>
@@ -190,8 +191,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Features</h2>
-        <p>Our Advacedd Features<br></p>
+        <h2>Commitment</h2>
+        <p>Komitmen Kami<br></p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -208,42 +209,42 @@
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Eos aspernatur rem</h3>
+                  <h3>Cepat</h3>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Facilis neque ipsa</h3>
+                  <h3>Dapat Diandalkan</h3>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Volup amet volupt</h3>
+                  <h3>Murah</h3>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Rerum omnis sint</h3>
+                  <h3>Fleksibel</h3>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Alias possimus</h3>
+                  <h3>Tepat Sasaran</h3>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="700">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
-                  <h3>Repellendus molli</h3>
+                  <h3>Mudah Digunakan</h3>
                 </div>
               </div><!-- End Feature Item -->
 
@@ -270,48 +271,48 @@
               <div class="col-md-6 icon-box">
                 <i class="bi bi-award"></i>
                 <div>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4>Keamanan Terjamin</h4>
+                  <p>Kami menggunakan layanan berbasis cloud computing yang mana data-data yang anda berikan akan disimpan secara aman dan tidak akan hilang.</p>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6 icon-box">
                 <i class="bi bi-card-checklist"></i>
                 <div>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <h4>Multi Platform</h4>
+                  <p>Layanan kami dapat anda gunakan dengan platform mobile baik android ataupun ios serta desktop windows, mac, ataupun linux.</p>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6 icon-box">
                 <i class="bi bi-dribbble"></i>
                 <div>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <h4>Online 24/7</h4>
+                  <p>Sistem kami tetap berjalan tanpa batasan waktu sehingga anda dapat mengaksesnya kapanpun dan darimanapun selama perangkat anda terhubung dengan internet.</p>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6 icon-box">
                 <i class="bi bi-filter-circle"></i>
                 <div>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  <h4>Sesuai Kebutuhan</h4>
+                  <p>Layanan dari kami dapat digunakan secara luas baik sekolah dengan kompleksitas kecil ataupun sekolah dengan kompleksitas yang tinggi.</p>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6 icon-box">
                 <i class="bi bi-lightning-charge"></i>
                 <div>
-                  <h4>Molestiae dolor</h4>
-                  <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                  <h4>Semakin Efisien</h4>
+                  <p>Dengan menggunakan layanan kami anda dapat mengefisiensi operasional sekolah yang selama ini dapat menghambat fleksibilitas dan membuang banyak waktu.</p>
                 </div>
               </div><!-- End Feature Item -->
 
               <div class="col-md-6 icon-box">
                 <i class="bi bi-patch-check"></i>
                 <div>
-                  <h4>Explicabo consectetur</h4>
-                  <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                  <h4>Garansi Penuh</h4>
+                  <p>Layanan kami bergaransi penuh dan difasilitasi dengan Customer Service yang dapat anda hubungi melalui platform yang kami sediakan.</p>
                 </div>
               </div><!-- End Feature Item -->
 
