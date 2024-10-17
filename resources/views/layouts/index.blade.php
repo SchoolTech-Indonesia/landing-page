@@ -848,14 +848,15 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://4.bp.blogspot.com/-xbSSASGKQkk/XuWnLm2KTkI/AAAAAAAAaLQ/uQTBzp3AsicCyBC3Wd9mlINaoL8ppQUNwCLcBGAsYHQ/s1600/logo-Universitas-Jember-UNEJ_237desain.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bogor_Agricultural_University_(IPB)_symbol.svg/1200px-Bogor_Agricultural_University_(IPB)_symbol.svg.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://th.bing.com/th/id/OIP.r6Vx5Ly-Qk_kpXxgXMUZeQHaHc?rs=1&pid=ImgDetMain" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://1.bp.blogspot.com/-p6w8Wm0BddI/YVh5Pe2tSoI/AAAAAAAASCU/CkTPn3VIn6wlijAeLqB3dtmgGQidasnygCLcBGAsYHQ/w640-h640/LOGO%2BTAMA%2BJAGAKARSA%2BNEW.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://play-lh.googleusercontent.com/5iT0maH_5fZpCqsYdoBXVKOUo4cYuWg8v5RZpIwwbirtU8GZdDDhZP2687vNGQWLS4d4" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://th.bing.com/th/id/R.6ac1428d76e711422367af87a8d031f7?rik=fq%2faqy%2fz5trirw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-I82YjPK1fHw%2fUK9r7Bf1qHI%2fAAAAAAAAHM4%2fo4XtHmayj4w%2fs1600%2fLOGO%2bUNPAM.png&ehk=pvUX01FZbz6FV9sXSBpk6Bz4pz93OacpCOsDatFYUUo%3d&risl=&pid=ImgRaw&r=0" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://4.bp.blogspot.com/-ixq1lMIDKac/WLz3-9YWNBI/AAAAAAAAASU/wcx0mztW08Egb-RjLn6732PzsU4vdm8kQCLcB/s1600/logo_unmer_1340701870.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://th.bing.com/th/id/OIP.MDNLB77BFtZa_EROJhGLBwHaJC?rs=1&pid=ImgDetMain" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="https://1.bp.blogspot.com/-PpH7CcrJIvE/X5WGsZUp6LI/AAAAAAAADRE/VIw1_NyjUC4HUnijuO1r2WBG4tfjpJGbgCLcBGAsYHQ/s1920/Logo%2BPolinema%2B%2528Politeknik%2BNegeri%2BMalang%2529.png" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
