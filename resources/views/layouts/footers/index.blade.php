@@ -17,19 +17,20 @@
             <h4>Useful Links</h4>
             <ul>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Career</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Products</a></li>
                 <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
             </ul>
         </div>
 
         <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Website Sekolah</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Intern Pro</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">BKK Point</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Extra Pro</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">BKK Pro</a></li>
             </ul>
         </div>
 

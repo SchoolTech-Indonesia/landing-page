@@ -3,8 +3,8 @@
 
         <a href="index.html" class="logo d-flex align-items-center me-auto">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <img src="assets/img/logo.png" alt="">
-            <h1 class="sitename">FlexStart</h1>
+            <img src="assets/img/Logo-SchoolTech.png" alt="">
+           <!-- <h1 class="sitename">SchoolTech</h1> -->
         </a>
 
         <nav id="navmenu" class="navmenu">
