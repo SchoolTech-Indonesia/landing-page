@@ -2777,3 +2777,7 @@ section,
 #team {
   display: none;
 }
+
+#recent-posts {
+  display: none;
+}
