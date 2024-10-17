@@ -375,7 +375,7 @@
             <div class="service-item item-red position-relative">
               <i class="bi bi-bounding-box-circles icon"></i>
               <h3>Extra Pro</h3>
-              <p>Simextra- Mudahkan pendaftaran, jadwal, dan pemantauan kegiatan ekstrakurikuler lebih terorganisir dan efisien.</p>
+              <p>Mudahkan pendaftaran, jadwal, dan pemantauan kegiatan ekstrakurikuler lebih terorganisir dan efisien.</p>
               <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -394,7 +394,7 @@
               <i class="bi bi-chat-square-text icon"></i>
               <h3>Coming Soon</h3>
               <p>Coming Soon</p>
-              <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+            <!--  <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a> -->
             </div>
           </div><!-- End Service Item -->
 
@@ -1001,9 +1001,8 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="200">
                   <i class="bi bi-geo-alt"></i>
-                  <h3>Address</h3>
-                  <p>Jl. Gunung Jati RT. 022 RW. 005 Desa Pandan Landung. Kecamatan Wagir.</p>
-                  <p>Kabupaten Malang. 65158</p>
+                  <h3>Email Us</h3>
+                  <p>admin@schooltechindonesia.com</p>
                 </div>
               </div>
                 <!-- End Info Item -->
@@ -1020,8 +1019,9 @@
               <div class="col-md-6">
                 <div class="info-item" data-aos="fade" data-aos-delay="400">
                   <i class="bi bi-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>admin@schooltechindonesia.com</p>
+                  <h3>Address</h3>
+                  <p>Jl. Gunung Jati RT. 022 RW. 005 Desa Pandan Landung. Kecamatan Wagir.</p>
+                  <p>Kabupaten Malang. 65158</p>
                 </div>
               </div>
                 <!-- End Info Item -->

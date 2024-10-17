@@ -2,14 +2,14 @@
     <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="d-flex align-items-center">
-                <img src="assets/img/schooltech-logo.png" width="100px" height="100px" alt="">
+                <img src="assets/img/Logo-SchoolTech.png" width="200px" height="104px" alt="">
             </a>
             <div class="footer-contact pt-3">
                 <p>Jl. Gunung Jati No.02 RT. 022 RW. 005</p>
                 <p>Desa Pandan Landung. Kecamatan Wagir.</p>
                 <p>Kabupaten Malang.</p>
                 <p class="mt-3"><strong>Telephone:</strong> <span>+62 881-0828-61608</span></p>
-                <p><strong>Email:</strong> <span>public.relations@schooltech.biz.id</span></p>
+                <p><strong>Email:</strong> <span>admin@schooltechindonesia.com</span></p>
             </div>
         </div>
 

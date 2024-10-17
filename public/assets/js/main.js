@@ -84,13 +84,13 @@
    */
   function aosInit() {
     AOS.init({
-      duration: 600,
+      duration: 500,
       easing: 'ease-in-out',
       once: true,
       mirror: false
     });
   }
-  window.addEventListener('load', aosInit);
+  window.addEventListener('DOMContentLoaded', aosInit);
 
   /**
    * Initiate glightbox
