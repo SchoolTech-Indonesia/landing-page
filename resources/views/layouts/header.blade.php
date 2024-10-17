@@ -12,7 +12,7 @@
                 <li><a href="#hero" class="active">Home<br></a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                {{-- <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -60,7 +60,7 @@
                             <a href="#">Column 5 link 3</a>
                         </li>
                     </ul>
-                </li>
+                </li> --}}
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

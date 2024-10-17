@@ -405,7 +405,7 @@
     </section><!-- /Services Section -->
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+    {{-- <section id="pricing" class="pricing section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -495,7 +495,8 @@
 
       </div>
 
-    </section><!-- /Pricing Section -->
+    </section> --}}
+    <!-- /Pricing Section -->
 
     <!-- Faq Section -->
     <section id="faq" class="faq section">
@@ -581,7 +582,7 @@
     </section><!-- /Faq Section -->
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    {{-- <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -705,10 +706,11 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section> --}}
+    <!-- /Testimonials Section -->
 
     <!-- Team Section -->
-    <section id="team" class="team section">
+    {{-- <section id="team" class="team section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -800,7 +802,8 @@
 
       </div>
 
-    </section><!-- /Team Section -->
+    </section> --}}
+    <!-- /Team Section -->
 
     <!-- Clients Section -->
     <section id="clients" class="clients section">
@@ -817,9 +820,9 @@
           <script type="application/json" class="swiper-config">
             {
               "loop": true,
-              "speed": 600,
+              "speed": 300,
               "autoplay": {
-                "delay": 5000
+                "delay": 2000
               },
               "slidesPerView": "auto",
               "pagination": {
@@ -863,10 +866,11 @@
 
       </div>
 
-    </section><!-- /Clients Section -->
+    </section>
+    <!-- /Clients Section -->
 
     <!-- Recent Posts Section -->
-    <section id="recent-posts" class="recent-posts section">
+    {{-- <section id="recent-posts" class="recent-posts section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -975,7 +979,8 @@
 
       </div>
 
-    </section><!-- /Recent Posts Section -->
+    </section> --}}
+    <!-- /Recent Posts Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
