@@ -19,9 +19,6 @@ class ContactForm extends Component
             'message' => 'required|string',
         ]);
 
-        // Logika untuk menyimpan data atau mengirim email
-        // Misalnya, Anda bisa menggunakan model untuk menyimpan data ke database
-
         // Reset input setelah pengiriman
         $this->reset(['name', 'email', 'message']);
 
