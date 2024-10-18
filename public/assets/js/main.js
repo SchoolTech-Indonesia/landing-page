@@ -206,3 +206,28 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  
+  var form = this;
+  var formData = new FormData(form);
+  
+  fetch('/subscribe', {
+      method: 'POST',
+      body: formData,
+      headers: {
+          'X-Requested-With': 'XMLHttpRequest',
+          'X-CSRF-TOKEN': document.querySelector('input[name="_token"]').value
+      }
+  })
+  .then(response => response.json())
+  .then(data => {
+      form.querySelector('.sent-message').style.display = 'block';
+      form.reset();
+  })
+  .catch(error => {
+      form.querySelector('.error-message').textContent = 'An error occurred. Please try again.';
+      form.querySelector('.error-message').style.display = 'block';
+  });
+});
