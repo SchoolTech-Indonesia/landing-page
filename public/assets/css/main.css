@@ -1404,7 +1404,7 @@ section,
   right: 20px;
   font-size: 16px;
   line-height: 0;
-  transition: 0.3s;
+  transition: 0.10 s;
   cursor: pointer;
 }
 
@@ -1416,12 +1416,24 @@ section,
   color: var(--accent-color);
 }
 
-.faq .faq-container .faq-active .faq-content {
+.faq .faq-container .faq-active .faq-content{
   grid-template-rows: 1fr;
   visibility: visible;
   opacity: 1;
+  height: auto;
   padding-top: 10px;
+  overflow: hidden;
 }
+
+.faq .faq-container .faq-content {
+  grid-template-rows: 0fr;
+  visibility: hidden;
+  opacity: 0;
+  height: 0; 
+  padding-top: 0; 
+  transition: all 0.75s ease;
+}
+
 
 .faq .faq-container .faq-active .faq-toggle {
   transform: rotate(90deg);

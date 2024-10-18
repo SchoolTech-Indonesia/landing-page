@@ -515,26 +515,34 @@
 
             <div class="faq-container">
 
-              <div class="faq-item faq-active">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+              <div class="faq-item">
+                <h3>Layanan apa saja yang ditawarkan oleh SchoolTech?</h3>
                 <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                  <p>Kami menawarkan berbagai layanan, seperti:</p>
+                  <ul>
+                    <li>Website Sekolah: Pembuatan halaman web sekolah yang dirancang khusus untuk memudahkan pengelolaan informasi akademik yang profesional dan efisien</li>
+                    <li>Intern Pro: Aplikasi inovatif yang dirancang khusus untuk memfasilitasi manajemen praktik kerja industri (prakerin) bagi sekolah-sekolah menengah kejuruan</li>
+                    <li>BK Point: Optimalkan administrasi dan operasional sekolah dengan aplikasi manajemen terpadu, solusi cerdas untuk kemudahan pengelolaan sekolah</li>
+                    <li>Extra Pro: Simextra - Mudahkan pendaftaran, jadwal, dan pemantauan kegiatan ekstrakurikuler lebih terorganisir dan efisien</li>
+                    <li>BKK Pro: Aplikasi canggih yang mempermudah sekolah, tracer studi, dan mengelola penyaluran kerja secara efektif</li>
+                  </ul>
+                </div>
+                <p class="faq-toggle bi bi-chevron-right"></p>
+              </div><!-- End Faq item-->
+              
+
+              <div class="faq-item">
+                <h3>Bagaimana cara sekolah saya menggunakan SchoolTech?</h3>
+                <div class="faq-content">
+                  <p>Untuk memulai menggunakan SchoolTech, Anda bisa mendaftar melalui website kami atau menghubungi tim kami. Setelah itu, kami akan membantu proses instalasi dan pelatihan agar sekolah bisa memanfaatkan platform kami secara maksimal.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
+                <h3> Apakah SchoolTech bisa diakses oleh siswa dan guru dari perangkat apapun?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item-->
-
-              <div class="faq-item">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
+                  <p>Sangat Bisa! SchoolTech didesain secara user friendly dan fungsional yang memudahkan untuk diakses melalui berbagai perangkat, termasuk komputer, tablet, dan smartphone. Platform ini juga kompatibel dengan berbagai sistem operasi.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -548,25 +556,25 @@
             <div class="faq-container">
 
               <div class="faq-item">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <h3>Apakah SchoolTech aman digunakan?</h3>
                 <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                  <p>Kami memastikan keamanan data adalah prioritas kami. SchoolTech menggunakan enkripsi dan protokol keamanan tinggi untuk memastikan data siswa, guru, dan sekolah terjaga dari potensi ancaman digital.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h3>
+                <h3>Apakah SchoolTech hanya untuk sekolah besar?</h3>
                 <div class="faq-content">
-                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in</p>
+                  <p>Tidak, SchoolTech bisa digunakan oleh sekolah dari berbagai ukuran, baik itu sekolah kecil, menengah, maupun besar. Kami menawarkan solusi yang dapat disesuaikan dengan kebutuhan masing-masing sekolah.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
 
               <div class="faq-item">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <h3>Apakah SchoolTech bisa disesuaikan dengan kebutuhan sekolah saya?</h3>
                 <div class="faq-content">
-                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi. Distinctio ipsam dolore et.</p>
+                  <p>Tentu saja! SchoolTech menyediakan solusi yang dapat dikustomisasi sesuai dengan kebutuhan spesifik sekolah Anda, baik itu terkait fitur, tampilan, maupun integrasi dengan sistem lain yang sudah digunakan.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
