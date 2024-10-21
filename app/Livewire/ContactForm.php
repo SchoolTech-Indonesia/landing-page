@@ -23,7 +23,7 @@ class ContactForm extends Component
         $this->reset(['name', 'email', 'message']);
 
         // Berikan feedback kepada pengguna
-        session()->flash('message', 'Pesan Anda telah dikirim!');
+        session()->flash('message', 'Your message has been sent!');
     }
 
     public function render()

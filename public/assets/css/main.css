@@ -1387,7 +1387,7 @@ section,
 
 .faq .faq-container .faq-item .faq-content {
   display: grid;
-  grid-template-rows: 0fr;
+  grid-template-rows: 1fr;
   transition: 0.3s ease-in-out;
   visibility: hidden;
   opacity: 0;

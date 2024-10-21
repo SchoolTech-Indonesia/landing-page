@@ -519,12 +519,14 @@
                 <h3>Layanan apa saja yang ditawarkan oleh SchoolTech?</h3>
                 <div class="faq-content">
                   <p>Kami menawarkan berbagai layanan, seperti:</p>
-                  <ul>
+                  <p>
                     <li>Website Sekolah: Pembuatan halaman web sekolah yang dirancang khusus untuk memudahkan pengelolaan informasi akademik yang profesional dan efisien</li>
                     <li>Intern Pro: Aplikasi inovatif yang dirancang khusus untuk memfasilitasi manajemen praktik kerja industri (prakerin) bagi sekolah-sekolah menengah kejuruan</li>
                     <li>BK Point: Optimalkan administrasi dan operasional sekolah dengan aplikasi manajemen terpadu, solusi cerdas untuk kemudahan pengelolaan sekolah</li>
                     <li>Extra Pro: Simextra - Mudahkan pendaftaran, jadwal, dan pemantauan kegiatan ekstrakurikuler lebih terorganisir dan efisien</li>
                     <li>BKK Pro: Aplikasi canggih yang mempermudah sekolah, tracer studi, dan mengelola penyaluran kerja secara efektif</li>
+                  <ul>
+                  </p>  
                   </ul>
                 </div>
                 <p class="faq-toggle bi bi-chevron-right"></p>
