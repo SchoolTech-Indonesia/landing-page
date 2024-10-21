@@ -515,7 +515,7 @@
 
             <div class="faq-container">
 
-              <div class="faq-item">
+              {{-- <div class="faq-item">
                 <h3>Layanan apa saja yang ditawarkan oleh SchoolTech?</h3>
                 <div class="faq-content">
                   <p>Kami menawarkan berbagai layanan, seperti:</p>
@@ -530,7 +530,7 @@
                   </ul>
                 </div>
                 <p class="faq-toggle bi bi-chevron-right"></p>
-              </div><!-- End Faq item-->
+              </div><!-- End Faq item--> --}}
               
 
               <div class="faq-item">
