@@ -2,7 +2,7 @@
     <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="d-flex align-items-center">
-                <img src="assets/img/Logo-SchoolTech.png" width="347px" height="108px" alt="">
+                <img src="assets/img/Logo-SchoolTech.png" width="217px" height="80px" alt="">
             </a>
             <div class="footer-contact pt-3">
                 <p>Jl. Gunung Jati No.02 RT. 022 RW. 005</p>

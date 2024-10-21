@@ -51,7 +51,7 @@
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+            <img src="assets/img/Website-SchoolTech.png" class="img-fluid animated" alt="">
           </div>
         </div>
       </div>
@@ -520,12 +520,12 @@
                 <div class="faq-content">
                   <p>Kami menawarkan berbagai layanan, seperti:</p>
                   <p>
+                  <ul>
                     <li>Website Sekolah: Pembuatan halaman web sekolah yang dirancang khusus untuk memudahkan pengelolaan informasi akademik yang profesional dan efisien</li>
                     <li>Intern Pro: Aplikasi inovatif yang dirancang khusus untuk memfasilitasi manajemen praktik kerja industri (prakerin) bagi sekolah-sekolah menengah kejuruan</li>
                     <li>BK Point: Optimalkan administrasi dan operasional sekolah dengan aplikasi manajemen terpadu, solusi cerdas untuk kemudahan pengelolaan sekolah</li>
                     <li>Extra Pro: Simextra - Mudahkan pendaftaran, jadwal, dan pemantauan kegiatan ekstrakurikuler lebih terorganisir dan efisien</li>
                     <li>BKK Pro: Aplikasi canggih yang mempermudah sekolah, tracer studi, dan mengelola penyaluran kerja secara efektif</li>
-                  <ul>
                   </p>  
                   </ul>
                 </div>
