@@ -1740,7 +1740,11 @@ section,
 # Clients Section
 --------------------------------------------------------------*/
 .clients .swiper-slide img {
-  transition: 0.3s;
+  max-width: 140px;
+  max-height: 140px;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
   opacity: 0.5;
 }
 
@@ -1749,6 +1753,9 @@ section,
 }
 
 .clients .swiper-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: auto;
 }
 
@@ -1758,15 +1765,16 @@ section,
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   opacity: 1;
-  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
+
 
 /*--------------------------------------------------------------
 # Recent Posts Section

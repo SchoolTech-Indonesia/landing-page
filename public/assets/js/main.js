@@ -165,6 +165,15 @@
 
   window.addEventListener("load", initSwiper);
 
+  var swiper = new Swiper('.swiper-container', {
+    speed: 600, // Ubah kecepatan transisi slide
+    loop: true, // Menghindari stop-start lag saat slider mengulang
+    preloadImages: true, // Memastikan gambar di-preload
+    lazy: {
+      loadPrevNext: true, // Memuat gambar di slide berikut dan sebelumnya
+    },
+  });
+  
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
    */
