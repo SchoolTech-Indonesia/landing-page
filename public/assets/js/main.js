@@ -231,3 +231,41 @@ document.getElementById('newsletter-form').addEventListener('submit', function(e
       form.querySelector('.error-message').style.display = 'block';
   });
 });
+
+document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+  e.preventDefault(); // Mencegah reload halaman
+
+  const formData = new FormData(this);
+  const loadingMessage = document.querySelector('.loading');
+  const sentMessage = document.querySelector('.sent-message');
+  const errorMessage = document.querySelector('.error-message');
+
+  loadingMessage.style.display = 'block'; // Tampilkan loading
+  sentMessage.style.display = 'none'; // Sembunyikan pesan sukses
+  errorMessage.style.display = 'none'; // Sembunyikan pesan error
+
+  fetch(this.action, {
+      method: 'POST',
+      body: formData,
+      headers: {
+          'X-Requested-With': 'XMLHttpRequest' // Mengatur header untuk ajax
+      }
+  })
+  .then(response => {
+      if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+      }
+      return response.json();
+  })
+  .then(data => {
+      loadingMessage.style.display = 'none'; // Sembunyikan loading
+      sentMessage.textContent = data.message; // Tampilkan pesan sukses
+      sentMessage.style.display = 'block'; // Tampilkan pesan sukses
+  })
+  .catch(error => {
+      loadingMessage.style.display = 'none'; // Sembunyikan loading
+      errorMessage.textContent = 'An error occurred. Please try again.'; // Tampilkan pesan error
+      errorMessage.style.display = 'block'; // Tampilkan pesan error
+      sentMessage.style.display = 'none'; // Sembunyikan pesan sukses
+  });
+});

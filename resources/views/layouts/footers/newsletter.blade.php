@@ -7,12 +7,12 @@
                 <form id="newsletter-form" class="php-email-form">
                     @csrf
                     <div class="newsletter-form">
-                        <input type="email" name="email" required>
+                        <input type="email" name="email" placeholder="Enter your email" required>
                         <input type="submit" value="Subscribe">
                     </div>
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+                    <div class="loading" style="display: none;">Loading...</div>
+                    <div class="error-message" style="display: none;"></div>
+                    <div class="sent-message" style="display: none;">Your subscription request has been sent. Thank you!</div>
                 </form>
             </div>
         </div>

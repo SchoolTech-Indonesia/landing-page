@@ -1,10 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NewsletterController;
 
+// Rute untuk halaman utama
 Route::get('/', function () {
     return view('index');
-
-    Route::post('/subscribe', 'NewsletterController@subscribe')->name('newsletter.subscribe');
-
+    
 });
+
+// Rute untuk mengirimkan form newsletter
+Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');

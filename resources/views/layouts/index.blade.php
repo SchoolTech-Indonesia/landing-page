@@ -26,7 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="{{asset('assets/css/main.css')}}" rel="stylesheet">
-
+  @livewireStyles
 </head>
 
 <body class="index-page">
@@ -1087,7 +1087,7 @@
 
   <!-- Main JS File -->
   <script src="{{asset('assets/js/main.js')}}"></script>
-
+  @livewireScripts
 </body>
 
 </html>

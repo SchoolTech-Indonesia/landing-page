@@ -34,4 +34,5 @@
 
         </div>
     </form>
-</div><!-- End Contact Form -->
+</div>
+<!-- End Contact Form -->
