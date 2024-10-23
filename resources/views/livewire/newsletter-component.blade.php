@@ -4,9 +4,9 @@
         <button type="submit" class="btn btn-primary" wire:loading.attr="disabled">Subscribe</button>
     </div>
 
-    @if (session()->has('message'))
+    @if ($successMessage)
         <div class="sent-message">
-            {{ session('message') }}
+            {{ $successMessage }}
         </div>
     @endif
 

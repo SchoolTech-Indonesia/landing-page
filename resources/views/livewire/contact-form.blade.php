@@ -1,4 +1,4 @@
-<div class="col-lg-12"> <!-- Mengubah kolom menjadi 12 untuk mengisi seluruh lebar -->
+<div class="col-lg-12">
     @if (session()->has('message'))
         <div class="alert alert-success">
             {{ session('message') }}
@@ -7,7 +7,6 @@
 
     <form wire:submit.prevent="submit" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
         <div class="row gy-4">
-
             <div class="col-md-12">
                 <input type="text" wire:model="name" class="form-control" placeholder="Your Name" required>
             </div>
@@ -25,14 +24,9 @@
             </div>
 
             <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                <button type="submit">Send Message</button>
+                <div class="loading" wire:loading>Loading...</div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
             </div>
-
         </div>
     </form>
 </div>
-<!-- End Contact Form -->

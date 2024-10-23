@@ -8,22 +8,21 @@ use App\Models\Newsletter;
 class NewsletterComponent extends Component
 {
     public $email;
+    public $successMessage = '';  // Tambahkan properti untuk pesan sukses
 
     public function submitNewsletter()
     {
         // Validasi email
         $this->validate([
-            'email' => 'required|email',
+            'email' => 'required|email|unique:newsletters,email',
         ]);
 
         // Simpan email ke database
         Newsletter::create(['email' => $this->email]);
 
-        // Reset input email setelah berhasil
+        // Reset form dan tampilkan pesan sukses
         $this->reset('email');
-
-        // Flash message sukses
-        session()->flash('message', 'Your subscription request has been sent. Thank you!');
+        $this->successMessage = 'Your subscription request has been sent. Thank you!';  // Set pesan sukses
     }
 
     public function render()

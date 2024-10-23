@@ -2,12 +2,14 @@
 
 namespace App\Livewire;
 
-use App\Models\Contact;
 use Livewire\Component;
+use App\Models\Contact;
+
 
 class ContactForm extends Component
 {
     public $name, $email, $subject, $message;
+
     protected $rules = [
         'name' => 'required|string|max:255',
         'email' => 'required|email',
@@ -17,9 +19,10 @@ class ContactForm extends Component
 
     public function submit()
     {
+        // Validasi form
         $this->validate();
 
-        // Simpan data ke dalam database
+        // Simpan data ke database
         Contact::create([
             'name' => $this->name,
             'email' => $this->email,
@@ -27,11 +30,11 @@ class ContactForm extends Component
             'message' => $this->message,
         ]);
 
-        // Reset form setelah submit
+        // Reset form setelah data tersimpan
         $this->resetForm();
 
-        // Kirim notifikasi berhasil
-        session()->flash('message', 'Your message has been sent.');
+        // Kirim notifikasi sukses
+        session()->flash('message', 'Your message has been sent successfully!');
     }
 
     public function resetForm()
