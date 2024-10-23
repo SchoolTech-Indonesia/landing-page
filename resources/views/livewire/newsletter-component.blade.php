@@ -1,14 +1,14 @@
-<form wire:submit.prevent="submitNewsletter" class="php-email-form">
-    <div class="newsletter-form">
-        <input type="email" wire:model="email" class="form-control" placeholder="Enter your email" required>
-        <button type="submit" class="btn btn-primary" wire:loading.attr="disabled">Subscribe</button>
-    </div>
-
-    @if ($successMessage)
-        <div class="sent-message">
-            {{ $successMessage }}
+<div>
+    @if (session()->has('message'))
+        <div class="alert alert-success">
+            {{ session('message') }}
         </div>
     @endif
 
-    <div class="loading" wire:loading>Loading...</div>
-</form>
+    <form wire:submit.prevent="submitNewsletter">
+        <div class="form-group">
+            <input type="email" wire:model="email" placeholder="Enter your email" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+</div>
